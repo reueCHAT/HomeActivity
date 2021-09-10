@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "518236118104",
+    "project_id": "homeactivity-50a21",
+    "storage_bucket": "homeactivity-50a21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518236118104:android:b819622753b41054ce3e2d",
+        "android_client_info": {
+          "package_name": "com.company.homeactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518236118104-3sutlmlk75tn3tq48uic6pslp0simndl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAghMaprvwXJS1zNkPOSohCLAgFmoyS1L8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518236118104-3sutlmlk75tn3tq48uic6pslp0simndl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

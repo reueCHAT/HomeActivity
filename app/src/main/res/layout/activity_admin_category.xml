@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admins.AdminCategoryActivity"
+    android:background="@drawable/catback4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Выберите категорию"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/first_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/scalpel"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/scalpel" />
+
+        <ImageView
+            android:id="@+id/syringe"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/syringe" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.197">
+
+        <ImageView
+            android:id="@+id/micro"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/microsurgery" />
+
+        <ImageView
+            android:id="@+id/clamp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/clamp2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thrid_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.391">
+
+        <ImageView
+            android:id="@+id/bandages"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/bandages" />
+
+        <ImageView
+            android:id="@+id/surgery_technics"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/surgery_room" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

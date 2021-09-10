@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistActivity"
+    android:background="@drawable/registrationback">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        app:srcCompat="@drawable/logonew" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="364dp"
+        android:layout_height="376dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819">
+
+        <Button
+            android:id="@+id/button_registration"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:onClick="onsave"
+            android:text="Зарегистрироваться"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.914" />
+
+        <EditText
+            android:id="@+id/PhoneRegistration"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/input_desing"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="Номер телефона"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.287" />
+
+        <EditText
+            android:id="@+id/Name"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_height="50dp"
+            android:layout_width="350dp"
+            android:background="@drawable/input_desing"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Имя пользователя"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048" />
+
+        <EditText
+            android:id="@+id/PassRegistration"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:background="@drawable/input_desing"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Пароль"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
